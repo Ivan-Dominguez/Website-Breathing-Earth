@@ -1,10 +1,14 @@
 import React from 'react';
+import Navbar from './Navbar';
+import './components.css';
 
 const Header = () => {
     return (
-        <div className="ui secondary pointing menu">
-            <a href="/" className="item">Home</a>
-            <a href="/about" className="item">About</a>
+        <div className="wrapper">
+            <div className="site-name">
+               #WithNature
+            </div>
+            <Navbar/>
         </div>
     );
 };
