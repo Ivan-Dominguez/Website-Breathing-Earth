@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="navbar">
             <hr id="line-before"/>
             <Dropdown text="HOME" icon="" as={Link} to='/home'/>
-            <Dropdown text="ABOUT" icon="" as={Link} to='/about' simple>
+            <Dropdown text="ABOUT" icon="" simple>
                 <Dropdown.Menu>
                     <Dropdown.Item text="About" as={Link} to='/about'/>
                     <Dropdown.Item text="Team"as={Link} to='/team'/>
